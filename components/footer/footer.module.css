@@ -1,0 +1,11 @@
+.container {
+    justify-content: space-between;
+}
+.left {
+    gap:1rem;
+}
+.menu {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
