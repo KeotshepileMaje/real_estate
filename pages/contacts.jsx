@@ -1,18 +1,16 @@
-import Calculators from "@/components/calculators/calculators";
+import Contacts from "@/components/contacts/contacts";
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
 
-export default function CalculatorsPage() {
+export default function ContactPage() {
   return (
-    <>
     <div className="App">
       <div>
         <div className="white-gradient" />
         <Header />
-        <Calculators />
+        <Contacts />
       </div>
+      <Footer />
     </div>
-    <Footer />
-    </>
   );
 }

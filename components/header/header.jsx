@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import styles from "./header.module.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
+import Link from "next/link";
 
 export default function Header() {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -36,15 +37,19 @@ export default function Header() {
   return (
     <section className={`${styles.wrapper}`}>
       <div className={`flexCenter paddings innerWidth ${styles.container}`}>
-        <img src="./logo.png" alt="logo" width={100} />
+        <Link href='/cvvf' legacyBehavior>
+        <a><img src="./logo.png" alt="logo" width={100} /></a>
+        </Link>
         <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}>
           <div
             className={`flexCenter ${styles.menu}`}
             style={getMenuStyles(menuOpened)}
           >
-            <a href="">Residents</a>
-            <a href="">Our Value</a>
-            <a href="">Contact us</a>
+            <Link href='/'>Residents</Link>
+            <Link href='/calculators'>Calculators</Link>
+            <Link href="/contacts" legacyBehavior>
+              Contact us
+            </Link>
             <a href="">Get Started</a>
             <button className={`button`}>
               <a href="">Contact</a>
