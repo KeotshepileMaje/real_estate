@@ -52,7 +52,7 @@ export default function Header() {
             </Link>
             <a href="">Get Started</a>
             <button className={`button`}>
-              <a href="">Contact</a>
+              <a href="">SignIn</a>
             </button>
           </div>
           <div className={styles.menuIcon} onClick={toggleMenu}>
