@@ -7,7 +7,6 @@ export default function ContactPage() {
     <div className="App">
       <div>
         <div className="white-gradient" />
-        <Header />
         <Contacts />
       </div>
       <Footer />
