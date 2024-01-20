@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <section className={`${styles.wrapper}`}>
       <div className={`flexCenter paddings innerWidth ${styles.container}`}>
-        <Link href='/cvvf' legacyBehavior>
+        <Link href='/' legacyBehavior>
         <a><img src="./logo.png" alt="logo" width={100} /></a>
         </Link>
         <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}>

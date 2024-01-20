@@ -8,7 +8,6 @@ export default function CalculatorsPage() {
     <div className="App">
       <div>
         <div className="white-gradient" />
-        <Header />
         <Calculators />
       </div>
     </div>
