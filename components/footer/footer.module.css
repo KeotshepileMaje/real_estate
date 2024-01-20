@@ -1,4 +1,5 @@
 .container {
+    border: red;
     justify-content: space-between;
 }
 .left {

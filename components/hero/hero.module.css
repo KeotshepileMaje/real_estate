@@ -1,7 +1,11 @@
+.container {
+    background-color: #131110bb;
+}
+
 .wrapper {
     color: white;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; 
 }
 
 .container {

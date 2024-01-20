@@ -1,9 +1,4 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
- */
-
- :root {
+:root {
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
   --black: #131110;
@@ -37,7 +32,6 @@
   filter: blur(100px);
   border-radius: 100px;
 }
-
 
 a {
   color: inherit;
