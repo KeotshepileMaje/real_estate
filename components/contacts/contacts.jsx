@@ -2,6 +2,7 @@ import styles from './contact.module.css'
 
 export default function Contacts() {
     return (
+        <div className={`flexCenter`}>
         <section className={`paddings innerWidth ${styles.contact}`}>
         <span className={`primaryText`}>How can I help you?</span>
         <form className={styles.form}>
@@ -24,6 +25,6 @@ export default function Contacts() {
             </div>
         </form>
     </section>
-    
+    </div>
     )
 }

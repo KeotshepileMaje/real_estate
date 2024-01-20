@@ -4,6 +4,7 @@ import styles from './hero.module.css'
 import { HiLocationMarker } from 'react-icons/hi'
 export default function Hero() {
     return (
+        <div className={`${styles.container}`}>
         <section className={`${styles.wrapper}`}>
             <div className={`paddings innerWidth flexCenter ${styles.container}`}>
                 <div className={`flexColStart ${styles.left}`}>
@@ -56,5 +57,6 @@ export default function Hero() {
                 </div>
             </div>
         </section>
+        </div>
     )
 }

@@ -5,13 +5,11 @@ import Header from "@/components/header/header";
 export default function CalculatorsPage() {
   return (
     <>
-    <div className="App">
+    <div>
       <div>
-        <div className="white-gradient" />
         <Calculators />
       </div>
     </div>
-    <Footer />
     </>
   );
 }
